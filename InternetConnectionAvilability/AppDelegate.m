@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Reachability.h"
 
 @interface AppDelegate ()
 
@@ -15,7 +16,38 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+   
+//        Reachability *checkNetwork=[Reachability reachabilityForInternetConnection];
+//        NetworkStatus *networkStatus=[checkNetwork currentReachabilityStatus];
+//        if (networkStatus==NotReachable)
+//        {
+//            
+//            
+//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert !!"
+//                                                            message:@"No internet connection" delegate:self cancelButtonTitle:@"Cancel"
+//                                                  otherButtonTitles:@"OK", nil];
+//            [alert show];
+//            
+//            NSLog(@"No Internet connection");
+//            self.isNetwork=NO;
+//        }
+//        else
+//        {
+//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert !!"
+//                                                            message:@"Internet connected" delegate:self cancelButtonTitle:@"Cancel"
+//                                                  otherButtonTitles:@"OK", nil];
+//            [alert show];
+//
+//            NSLog(@"Internet connection is avilable");
+//            self.isNetwork=YES;
+//        }
+        
+     
+
+
     // Override point for customization after application launch.
     return YES;
 }
